@@ -1,0 +1,31 @@
+# Github Candidate assignment
+  
+## Description
+this project allows you to go through candidates on github a view thier information and also save them into a table. .
+undefined.
+This project solves the problem of having to write down or memorizing infomration on candidates you like. Now you cna just save them and  thier information. .
+my project is different because it is geared towards the employer looking for employees..
+
+
+## Installation
+```
+to install this package you must first start with npm i, then you will run npm run build which will build the front end and the back end. once that is complete you will run npm run dev which will delpoy the project to your localhost server. 
+```
+
+
+## Usage
+This repo is linked to github and will only work for github
+
+## Credits
+Zawadi Brown
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is licensed under the MIT license.
+https://opensource.org/licenses/MIT
+
+## Features
+My project features an ability to get through a large number of github users through an the ability to save them to a table. The table will feature all the important information as in name, username, location, link to their repo, and a phot if the y have one. 
+
+## How to Contribute
+If you want to contribute to this you can add to the code so we do not see repeact candidates.
