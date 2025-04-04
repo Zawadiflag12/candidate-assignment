@@ -2,12 +2,6 @@ import Candidate from '../interfaces/Candidate.interface';
 import { useState, useEffect } from 'react';
 import { searchGithub, searchGithubUser } from '../api/API';
 
-//information for one candidate should be displayed, including the candidate's name, username, location, avatar, email, html_url, and company
-
-// I click the "+" button candidate should be saved to the list of potential candidates and the next candidate's information should be displayed+ 
-
-// I click the "-" button the next candidate's information should be displayed without saving the current candidate
-//WHEN there are no candidates available to review an appropriate message should be shown indicating no more candidates are available
 const CandidateSearch = () => {
 
   const [currentCandidate, setCurrentCandidate] = useState<Candidate>({login: '', id: 0, name: '', username: '', location: '', avatar_url: '', email: '', html_url: '', company: ''});
